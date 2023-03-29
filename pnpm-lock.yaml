@@ -3,12 +3,10 @@ lockfileVersion: 5.4
 specifiers:
   '@slidev/cli': ^0.40.5
   '@slidev/theme-default': '*'
-  '@slidev/theme-seriph': '*'
 
 dependencies:
   '@slidev/cli': 0.40.5_postcss@8.4.21
   '@slidev/theme-default': 0.21.2
-  '@slidev/theme-seriph': 0.21.3
 
 packages:
 
@@ -889,16 +887,6 @@ packages:
   /@slidev/theme-default/0.21.2:
     resolution: {integrity: sha512-neUucFs2YrRZZd73QwvLTyRG/o1nerDFUR5t8YAmXVLTMzWfY71flQ6aAhjYf+WjsozYsOHcxi/pZtIzZ4VhTQ==}
     engines: {node: '>=14.0.0', slidev: '>=0.19.2'}
-    dependencies:
-      '@slidev/types': 0.22.7
-      codemirror-theme-vars: 0.1.2
-      prism-theme-vars: 0.2.4
-      theme-vitesse: 0.1.14
-    dev: false
-
-  /@slidev/theme-seriph/0.21.3:
-    resolution: {integrity: sha512-cLya6O4hmcLHUhloCMPPoKMLX27Q+8M8pRS82BSsLXVeXTXrlpc3l3glx5VB738p+NQr7FgqFN6H2CXQRoVv9Q==}
-    engines: {node: '>=14.0.0', slidev: '>=0.19.3'}
     dependencies:
       '@slidev/types': 0.22.7
       codemirror-theme-vars: 0.1.2

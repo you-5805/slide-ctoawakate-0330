@@ -4,4 +4,4 @@ build: $(addprefix build_, $(SLIDES))
 
 .PHONY: build_%
 build_%:
-	pnpm slidev build ./src/entries/$(@:build_%=%).md --out ../../dist/$(@:build_%=%)
+	npm slidev build ./src/entries/$(@:build_%=%).md --out ../../dist/$(@:build_%=%)

@@ -2,12 +2,13 @@
   "name": "ctoa-wakate-0330",
   "private": true,
   "scripts": {
-    "dev": "slidev ./src/slides.md --open",
-    "build": "slidev build ./src/slides.md --out ../dist",
-    "export": "slidev export ./src/slides.md --out ../dist"
+    "dev": "slidev --open",
+    "build": "slidev build",
+    "export": "slidev export"
   },
   "dependencies": {
     "@slidev/cli": "^0.40.5",
-    "@slidev/theme-default": "*"
+    "@slidev/theme-default": "*",
+    "@slidev/theme-seriph": "^0.21.3"
   }
 }

@@ -1,15 +1,15 @@
 <script setup lang="ts">
-const props = defineProps({
-  text: {},
-});
+import { defineProps } from 'vue';
+
+const props = defineProps<{text: string}>()
 </script>
 
 <template>
-  <h1>{{ props.text }}</h1>
+  <h1 class="heading">{{ props.text }}</h1>
 </template>
 
 <style>
-h1 {
+.heading {
   background-color: #2b90b6;
   background-image: linear-gradient(45deg, #4ec5d4 10%, #146b8c 20%);
   background-size: 100%;
